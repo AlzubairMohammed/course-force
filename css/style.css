@@ -1,0 +1,125 @@
+.navbar-style{
+    background-color: white !important;
+}
+.navbar-img-style{
+    width: 100px;
+    height: 60px;
+}
+.main-img{
+    filter: brightness(70%) ;
+}
+footer{
+    background-color: rgb(168, 167, 167) !important;
+    padding-top: 30px;
+    border-top: 1px rgb(196, 192, 192) solid;
+    margin-top: 50px;
+}
+.footer-a{
+    color: black;
+    display: block;
+    line-height: 30px;
+}
+.footer-button{
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color:rgb(44, 43, 43) ;
+    border: 1px solid white;
+}
+.footer-button:hover{
+    background-color: rgb(61, 58, 58);
+}
+.footer-span{
+    color: black;
+    margin-left: 5px;
+    display: block;
+    font-size: small;
+    margin-top: 40px;
+
+}
+@media only screen and (min-width: 1000px) {
+    .home-card1{
+        margin-top: -320px !important;
+        position: absolute;
+        padding: 15px;margin-top:4rem ;
+        border-radius: 5px; 
+        margin-left: 5rem; 
+        width: 360px;
+        height: 250px;
+    }
+    
+
+  }
+.home-card1{
+    padding: 15px;
+    margin-top:4rem;
+    border-radius: 5px;
+}
+.python-section p, h3{
+    letter-spacing: 1px;
+    color: black !important;
+    
+}
+.python-section span{
+    background-color: rgb(219, 219, 219);
+    
+    
+}
+.python-content{
+    filter: brightness(90%) !important;
+}
+.moblie-section{
+    filter: brightness(90%) !important;
+}
+@media only screen and (max-width: 1000px) {
+    .show{
+        display: none;
+    }
+    .login-sign{
+        margin-top: 20px;
+    }
+    .login{
+        margin-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .login-sign{
+        margin-left: 450px !important;
+        margin-top: 20px;
+    }
+}
+.sign{
+    background-color: rgb(90, 89, 89);
+    color: white;
+}
+.login:hover{
+    background-color: rgb(221, 219, 219);
+}
+.div-style{
+    background-color: rgb(238, 237, 237);
+}
+.card{
+    margin-bottom: 50px ;
+}
+.card-container{
+    margin: 30px;
+}
+.teacherCard{
+    display:inline;
+}
+.courses-card{
+    height: 350px;
+}
+.courses-card img{
+    
+}
+/* .slide1{
+    margin-left: 40px;
+    margin-right: 0px;
+}
+.slide1-card{
+    margin-left: 0px;
+} */

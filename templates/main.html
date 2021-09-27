@@ -1,0 +1,88 @@
+<!--navbar-->
+<nav class="uk-navbar-container uk-margin navbar-style uk-card uk-card-default " uk-navbar>
+    <div class="uk-navbar-left">
+
+        <a class="uk-navbar-item uk-logo" href="#"><img class="navbar-img-style" src="img/logo.png" alt=""></a>
+
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="#">
+                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                    Features
+                </a>
+            </li>
+        </ul>
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="#">categories</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a ui-sref="app.webCoursesPage">Web development</a></li>
+                        <li><a ui-sref="app.desktopCoursePage">Desktop Apps</a></li>
+                        <li><a ui-sref="app.mobleCoursesPage">Moble apps</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <div class="uk-navbar-item show">
+            <form action="javascript:void(0)">
+                <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
+                <button class="uk-button uk-button-default">Button</button>
+            </form>
+        </div>
+    </div>
+    <div class="login-sign">
+        <button class="uk-button uk-button-default login">Login</button>
+        <button class="uk-button uk-button-default sign">Sign up</button>
+
+    </div>
+</nav>
+
+<!--navbar-->
+
+
+
+<div ui-view="sub"></div>
+
+
+<!--footer-->
+<footer class="uk-grid-match  uk-text-center">
+    <div class="uk-grid-match uk-grid-small uk-text-center" uk-grid>
+        <div class="uk-width-1-4@m">
+            <div class="uk-card">
+            <a href="" class="footer-a">Udemy Business</a>
+            <a href="" class="footer-a">Teach on Udemy</a>
+            <a href="" class="footer-a">Get the app</a>
+            <a href="" class="footer-a">About us</a>
+            <a href="" class="footer-a">Contact us</a>
+            </div>
+        </div>
+        <div class="uk-width-1-4@m">
+            <div class="uk-card">
+            <a href="" class="footer-a">Careers</a>
+            <a href="" class="footer-a">Blog</a>
+            <a href="" class="footer-a">Help and Suport</a>
+            <a href="" class="footer-a">Affiliate</a>
+            </div>
+        </div>
+        <div class="uk-width-1-4@m">
+            <div class="uk-card">
+            <a href="" class="footer-a">Terms</a>
+            <a href="" class="footer-a">Privacy and policy</a>
+            <a href="" class="footer-a">Cookie setting</a>
+            <a href="" class="footer-a">sitemap</a>
+            </div>
+        </div>
+        <div class="uk-width-1-4@m">
+            <div class="uk-card">
+                <button class="footer-button">English</button>
+            <span class="footer-span">© 2021 Udemy, Inc</span> 
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+    
+<!--footer-->
