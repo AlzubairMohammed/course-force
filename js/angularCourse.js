@@ -1,4 +1,4 @@
 angular.module("myApp")
-    .controller("desktopCtrl",function(){
+    .controller("angularCtrl",function(){
         $("html,body").animate({scrollTop:0},0)
     })

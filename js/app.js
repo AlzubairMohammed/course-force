@@ -49,6 +49,16 @@ angular.module("myApp",["mds","ui.router"])
             }
         
     })
+    .state("app.angularCoursesPage",{
+        url:"/angularCoursesPage",
+            views:{
+                sub:{
+                    templateUrl:"templates/angularCoursePage.html",
+                    controller:"angularCtrl"
+                }
+            }
+        
+    })
    $urlRouterProvider.otherwise("/app/home")
     })
 

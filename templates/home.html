@@ -193,65 +193,79 @@
   </div>
   <!--teacherCard4-->
 </div>
-<!--cards-->
+
+<!--slider-->
 <div class="uk-container">
-    <div class="uk-child-width-expand@m uk-text-center" uk-grid>
-        <!--card1-->
-        <div>
-          <div class="uk-card uk-card-default uk-card-body courses-card">
-            <div>
-                <div class="uk-card-media-top">
-                  <img src="img/python-card-img.jfif" alt="" />
-                </div>
-                <div class="uk-card-body">
-                  <h3 class="uk-card-title">Python course</h3>
-                </div>
-              </div>
-          </div>
-        </div>
-        <!--card1-->
-        <!--card2-->
-        <div>
-          <div class="uk-card uk-card-default uk-card-body courses-card">
-            <div>
-                <div class="uk-card-media-top">
-                  <img src="img/angular-card-img.svg" alt="" />
-                </div>
-                <div class="uk-card-body">
-                  <h3 class="uk-card-title">Angularjs course</h3>
-                </div>
-            </div>
-          </div>
-        </div>
-        <!--card2-->
-        <!--card3-->
-        <div>
-          <div class="uk-card uk-card-default uk-card-body courses-card">
-            <div>
-                <div class="uk-card-media-top">
-                  <img src="img/flutter.jfif" alt="" />
-                </div>
-                <div class="uk-card-body">
-                  <h3 class="uk-card-title">Flutter course</h3>
-                </div>
-            </div>
-          </div>
-        </div>
-        <!--card3-->
-        <!--card4-->
-        <div>
-            <div class="uk-card uk-card-default uk-card-body courses-card">
-              <div>
+  <div class="uk-child-width-expand@m uk-text-center" uk-grid>
+<div class="uk-slider-container-offset" uk-slider>
+
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+      <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+          <li>
+              <div class="uk-card uk-card-default courses-card" ui-sref="app.webCoursesPage">
                   <div class="uk-card-media-top">
-                    <img src="img/c-sharp-card-img.png" alt="" />
+                      <img src="img/python-course1.png" alt="">
                   </div>
                   <div class="uk-card-body">
-                    <h3 class="uk-card-title">C# course</h3>
+                      <h3 class="uk-card-title">Python course</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                   </div>
-                </div>
-            </div>
-        </div>
-        <!--card4-->
-      </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default courses-card" ui-sref="app.angularCoursesPage">
+                  <div class="uk-card-media-top">
+                      <img src="img/angular-card-img.svg" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Angularjs course</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default courses-card" ui-sref="app.mobleCoursesPage">
+                  <div class="uk-card-media-top">
+                      <img src="img/flutter.jfif" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Flutter course</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default courses-card" ui-sref="app.desktopCoursePage">
+                  <div class="uk-card-media-top">
+                      <img src="img/c-sharp-card-img.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">C# course</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default courses-card">
+                  <div class="uk-card-media-top">
+                      <img src="img/kotlin.jfif" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Headline</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color: black;" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: black;" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+  </div>
+
+  <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>
-<!--cards-->
+  </div>
+</div>
+<!--slider-->

@@ -111,10 +111,15 @@ footer{
     display:inline;
 }
 .courses-card{
-    height: 350px;
+    height: 450px;
 }
 .courses-card img{
     
+}
+@media only screen and (max-width:615px) {
+    .div-style{
+        margin-left: 20px;
+    }
 }
 /* .slide1{
     margin-left: 40px;
