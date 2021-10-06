@@ -2,24 +2,25 @@
 <nav class="uk-navbar-container uk-margin navbar-style uk-card uk-card-default " uk-navbar>
     <div class="uk-navbar-left">
 
-        <a class="uk-navbar-item uk-logo" href="#"><img class="navbar-img-style" src="img/logo.png" alt=""></a>
+        <a class="uk-navbar-item uk-logo" href="#"><img class="navbar-img-style" src="img/course-logo.png" alt=""></a>
 
         <ul class="uk-navbar-nav">
             <li>
-                <a href="#">
-                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
-                    Features
+                <a href="#" style="color: black;">
+                    <span class="uk-icon uk-margin-small-right"  uk-icon="icon: star"></span>
+                    home
                 </a>
             </li>
         </ul>
         <ul class="uk-navbar-nav">
             <li>
-                <a href="#">categories</a>
+                <a href="#" style="color: black;">categories</a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li class="uk-active"><a ui-sref="app.webCoursesPage">Web development</a></li>
                         <li><a ui-sref="app.desktopCoursePage">Desktop Apps</a></li>
                         <li><a ui-sref="app.mobleCoursesPage">Moble apps</a></li>
+                        <li><a ui-sref="app.angularCoursesPage">Angularjs course</a></li>
                     </ul>
                 </div>
             </li>
@@ -28,13 +29,13 @@
         <div class="uk-navbar-item show">
             <form action="javascript:void(0)">
                 <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
-                <button class="uk-button uk-button-default">Button</button>
+                <button class="uk-button uk-button-primary">search</button>
             </form>
         </div>
     </div>
     <div class="login-sign">
-        <button class="uk-button uk-button-default login">Login</button>
-        <button class="uk-button uk-button-default sign">Sign up</button>
+        <button class="uk-button uk-button-primary login">Login</button>
+        <button class="uk-button uk-button-primary sign">Sign up</button>
 
     </div>
 </nav>

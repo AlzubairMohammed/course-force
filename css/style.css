@@ -1,15 +1,32 @@
+body{
+    background-color: #fafafa;
+}
+/* .python-section> .uk-section {
+    height: 250px;
+} */
 .navbar-style{
-    background-color: white !important;
+    background-color: rgb(112, 133, 116) !important;
+    color: black !important;
+}
+.navbar-style button ,input{
+    border-radius: 30px !important;
+}
+.navbar-style input{
+    width: 180px;
+    margin-right: 5px;
 }
 .navbar-img-style{
     width: 100px;
     height: 60px;
+    border-radius: 100px;
 }
 .main-img{
+    border-radius: 10px;
+    background-color: rgb(112, 133, 116) !important;
     filter: brightness(70%) ;
 }
 footer{
-    background-color: rgb(168, 167, 167) !important;
+    background-color: rgb(112, 133, 116) !important;
     padding-top: 30px;
     border-top: 1px rgb(196, 192, 192) solid;
     margin-top: 50px;
@@ -61,8 +78,11 @@ footer{
     color: black !important;
     
 }
+.python-section >div{
+    border-radius: 10px;
+}
 .python-section span{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(112, 133, 116) !important;
     
     
 }
@@ -99,6 +119,8 @@ footer{
     background-color: rgb(221, 219, 219);
 }
 .div-style{
+    padding: 30px;
+    border-radius: 10px;
     background-color: rgb(238, 237, 237);
 }
 .card{
@@ -111,6 +133,7 @@ footer{
     display:inline;
 }
 .courses-card{
+    border-radius: 10px;
     height: 450px;
 }
 .courses-card img{
@@ -120,6 +143,21 @@ footer{
     .div-style{
         margin-left: 20px;
     }
+}
+.switcher-style{
+    margin-top: 10px;
+    color: black;
+}
+.item-style{
+    margin-top: -70px;
+}
+.courses-card-min{
+    position: fixed; 
+    width: 300px;margin-left: 980px;
+    height: 350px; 
+    margin-top: -250px;opacity: 1;
+     background-color: rgb(112, 133, 116);
+     border-radius: 20px;
 }
 /* .slide1{
     margin-left: 40px;
