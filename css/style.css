@@ -69,7 +69,9 @@ footer{
     border-radius: 10px;
 }
 .python-section span{
-    background-color: rgb(112, 133, 116) !important;
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
     
     
 }
